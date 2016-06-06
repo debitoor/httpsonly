@@ -1,0 +1,27 @@
+{
+  "name": "httpsonly",
+  "version": "1.0.0",
+  "description": "“httpsonly”",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/debitoor/httpsonly"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/debitoor/httpsonly/issues"
+  },
+  "homepage": "https://github.com/debitoor/httpsonly",
+  "devDependencies": {
+    "babel-eslint": "^6.0.4",
+    "chai": "^3.5.0",
+    "eslint-plugin-react": "^5.1.1",
+    "mocha": "^2.5.3",
+    "mocha-eslint": "^2.0.2",
+    "mocha-jscs": "^5.0.1",
+    "jscs": "3.0.4"
+  }
+}
