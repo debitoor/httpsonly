@@ -23,5 +23,8 @@
     "mocha-eslint": "^2.0.2",
     "mocha-jscs": "^5.0.1",
     "jscs": "3.0.4"
+  },
+  "dependencies": {
+    "helmet": "^2.1.0"
   }
 }
