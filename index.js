@@ -11,7 +11,7 @@ module.exports = function () {
 			includeSubdomains: true,
 			force: true
 		})(request, response, function(req, res, next){
-			helmet.hidePoweredBy()(req, res, next)
+			helmet.hidePoweredBy()(req, res, next);
 		});
 	};
 };
