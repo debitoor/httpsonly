@@ -11,7 +11,7 @@ Also hides the powered by express header.
 
 ```javascript
 var httpsonly = require('httpsonly');
-app.use(httpsonly); //app is the express app
+app.use(httpsonly()); //app is the express app
 ```
 
 ## License
