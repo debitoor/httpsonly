@@ -2,8 +2,8 @@ var helmet = require('helmet');
 var ONE_YEAR = 31536000000;
 module.exports = function () {
 	return function (req, res, next) {
-		if (request.headers['x-forwarded-proto'] === 'http') {
-			response.redirect(301, 'https://' + request.headers.host + request.url);
+		if (req.headers['x-forwarded-proto'] === 'http') {
+			res.redirect(301, 'https://' + req.headers.host + req.url);
 			return;
 		}
 		helmet.hsts({
