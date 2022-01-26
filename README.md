@@ -1,11 +1,15 @@
 # httpsonly
 
+[![Node.js CI](https://github.com/debitoor/httpsonly/actions/workflows/node.js.yml/badge.svg?branch=master)](https://github.com/debitoor/httpsonly/actions/workflows/node.js.yml)
+
 Express middleware that redirects http requests to https.
 
 Also sets Strict Transport Security header, telling browsers to visit by HTTPS for the next year.
 Also hides the powered by express header.
 
-	npm install httpsonly
+```shell
+npm install httpsonly
+```
 
 ## Usage
 
